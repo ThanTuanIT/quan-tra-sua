@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="item" *ngFor="let item of (items$|async)?.items">
+        <img [src]="item.image" alt="">
+        <h3>{{item.name}}</h3>
+        <h2 class="price">{{item.price | currency: ' ' : 'code': '.0-0'}} đ</h2>
+        <button class="btn">Đặt Hàng</button>
+    </div>
+</div>
+

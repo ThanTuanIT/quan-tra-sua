@@ -1,0 +1,59 @@
+.header {
+    height: 100px;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0 2px 5px rgba($color: #000000, $alpha: 0.2);
+}
+
+.nav .left img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.nav .right {
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .right img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nav .right .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4px 8px;
+    color: #0C713D;
+    border: 1px solid rgba($color: #0C713D, $alpha: 0.7);
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav .btn span {
+    margin-left: 8px;
+}
+
+.nav .btn .count {
+    height: 15px;
+    width: 15px;
+    color: white;
+    background-color: #0C713D;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
